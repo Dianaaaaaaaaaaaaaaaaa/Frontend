@@ -1,0 +1,68 @@
+/* Общие стили для устройств типа планшет */
+@media only screen and (width >= 768px) and (width <= 1600px) {
+  /* Сброс медиа-запросов */
+  .content__title,
+  .content__useful-information__title,
+  .content__useful-information-left__title,
+  .content__useful-information-right__title,
+  .content__useful-information-left__list__item,
+  .content__interesting-articles__title,
+  .content__interesting-articles__second-title,
+  .card__header__title,
+  .card__body__text,
+  .card__footer,
+  .footer__text {
+    padding: 0;
+  }
+
+  .header,
+  .footer .content {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .content {
+    justify-content: center;
+  }
+
+  .content__interesting-articles-container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+  }
+
+  .card__header__image {
+    width: 100%;
+    height: auto;
+  }
+
+  .header__profile {
+    padding-left: 50px;
+    padding-right: 0;
+    margin-top: 16px;
+  }
+
+  .header__logo {
+    padding-left: 50px;
+  }
+
+  .content__useful-information {
+    flex-direction: column;
+  }
+
+  .content__useful-information-left,
+  .content__useful-information-right {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}
