@@ -29,6 +29,7 @@
   justify-items: center;
   justify-content: space-between;
 }
+
 .content__useful-information-left {
   width: 406px;
   height: 578px;
@@ -106,6 +107,7 @@
 .content__interesting-articles {
   padding-top: 100px;
 }
+
 .content__interesting-articles__title {
   color: var(--main-bgc);
   text-align: center;
@@ -115,6 +117,7 @@
   line-height: 40px; /* 125% */
   letter-spacing: -0.8px;
 }
+
 .content__interesting-articles__second-title {
   color: var(--secondary-text);
   text-align: center;
@@ -126,8 +129,6 @@
 }
 
 .content__interesting-articles-container {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   padding-top: 48px;
   gap: 20px;
@@ -165,6 +166,7 @@
   padding-left: 24px;
   padding-bottom: 124px;
 }
+
 .card__footer {
   color: var(--secondary-text);
   font-size: 14px;
@@ -181,8 +183,9 @@
   height: 108px;
   background-color: #6a6a6a;
 }
+
 .footer__text {
-  color: #FFF;
+  color: #fff;
   text-align: right;
   font-size: 11px;
   font-style: normal;
@@ -191,4 +194,17 @@
   padding-right: 331px;
   padding-top: 44px;
   padding-bottom: 44px;
+}
+
+.content__interesting-articles__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 20px;
+}
+
+.content-line {
+  display: flex;
+  flex-direction: row;
 }
