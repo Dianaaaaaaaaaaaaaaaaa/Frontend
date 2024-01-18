@@ -31,7 +31,7 @@
 }
 
 .header__nav-item:hover {
-  background: var(--gray-900, #111827);
+  background: #111827;
   border-radius: 6px;
 }
 
